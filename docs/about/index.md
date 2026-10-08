@@ -25,15 +25,13 @@ title: About Me
 
 <div class="profile-info" markdown>
 
-## Your Name Here
+## Yonten Thai
 
 **Title / Role** — student
 
-> _"Add your favorite quote or personal tagline here."_
+> _"You're proof that sometimes life rigs things in our favor." — Wes_
 
-A short paragraph about yourself. Describe who you are, what you're passionate about,
-and what drives you. Keep it personal and authentic — this is your space!
-
+I was born on May 31, 2009, in Trashi Yangtse, located in eastern Bhutan. Although that is my home, I currently live in Wangdue Phodrang. In my free time, I love getting lost in fiction books, watching movies, and listening to music—especially K-pop.
 </div>
 
 </div>
@@ -44,8 +42,8 @@ and what drives you. Keep it personal and authentic — this is your space!
 
 | Year | Degree / Grade | School |
 |------|-----------------|-------------|
-| 2024 – Present | B.Sc. in Your Major | Your University |
-| 2020 – 2024 | Higher Secondary | Your School/College |
+| 2022 – Present |  Higher Secondary | The Royal Academy |
+| 2015 – 2022 | Primary | Jamkhar Primary School |
 
 ## 🛠️ Skills
 
@@ -71,10 +69,13 @@ and what drives you. Keep it personal and authentic — this is your space!
 
 ## 🌟 Interests
 
-- 🔬 **Research Area 1** — Brief description of your interest
-- 🎨 **Creative Hobby** — Brief description
-- 🏃 **Sports / Activity** — Brief description
-- 📚 **Reading / Learning** — Brief description
+- 🔬 **Research Area 1** - I am someone who is a huge fan of watching many different genres of movies, especially horror. I am very interested in learning how watching these movies affects an individual's mentality in terms of how they experience fear. I want to research desensitization, which is the idea that people might become numb to scary things after seeing them on screen. I plan to do this by comparing how horror fans and non horror fans react to jump scares or unsettling news in real life.
+
+- 🎨 **Creative Hobby** — I enjoy graphic design and creating posters for idols because it helps me enhance my design skills and expand my creativity. Moreover, I also love writing poems as a way to express myself. Fortunately, I am able to use these activities to explore different forms of artistic storytelling even though writing is not a regular practice for me.
+
+- 🏃 **Sports / Activity** — I am not someone who enjoys physical activity or sports to a great extent. However, I do enjoy playing badminton, table tennis, basketball, and volleyball with my friends for fun. Although I would not consider them my regular hobbies or practice, I find that playing these games is a great way to stay active and spend quality time with my friends.
+
+- 📚 **Reading / Learning** — I very much enjoy reading fiction books because they are a great way to escape reality through different fantasies. I read a lot of fiction during my free time, especially when I am giving myself screen free time. So far, my favorite books are The Song of Achilles and Looking for Alaska. This is because through these stories I am able to adopt a good personality and positive ways of thinking.
 
 <hr class="section-divider">
 
@@ -82,7 +83,7 @@ and what drives you. Keep it personal and authentic — this is your space!
 
 | Platform | Link |
 |----------|------|
-| :fontawesome-brands-github: GitHub | [yourusername](https://github.com/yourusername) |
-| :fontawesome-brands-linkedin: LinkedIn | [Your Name](https://linkedin.com/in/yourusername) |
-| :material-email: Email | [your.email@example.com](mailto:your.email@example.com) |
+| :fontawesome-brands-github: GitHub | [yonten-thai](https://github.com/yonten-thai) |
+| :fontawesome-brands-linkedin: LinkedIn | [Yonten Thai](https://linkedin.com/in/yonten-thai) |
+| :material-email: Email | [yonten.thai2022@academy.bt](mailto:yonten.thai2022@academy.bt) |
 | :material-web: Website | [yourwebsite.com](https://yourwebsite.com) |
