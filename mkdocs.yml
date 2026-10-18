@@ -1,156 +1,46 @@
-# ============================================================
-# MkDocs Configuration — Student Documentation Template
-# ============================================================
-# To get started:
-#   1. pip install mkdocs-material
-#   2. mkdocs serve
-#   3. Open http://127.0.0.1:8000
-# ============================================================
+1. What is a Vinyl Cutter?
+A vinyl cutter is a small, computer-controlled machine that uses a tiny blade to cut designs out of adhesive sheets. Instead of printing ink onto paper, it moves the blade along vector lines created in software to carve out shapes, text, or graphics. Once cut, the adhesive vinyl can be peeled off and stuck onto laptops, glass, walls, or other smooth surfaces.
 
-site_name: My Documentation Site          # ← Change to your name / project
-site_url: https://yonten-thai.github.io/yourrepo/  # ← Change: https://<username>.github.io/<repo>/
-site_description: A personal documentation site for showcasing work, learning, and projects.
-site_author: Yonten Thai                   # ← Change to your name
+2. Key Components
+Cutting Blades: The machine uses small blades with different angles (like 30°, 45°, or 60°) depending on how thick the material is and how detailed the cuts need to be.
 
-repo_url: https://github.com/yonten-thai/yourrepo  # ← Change to your GitHub repo URL
-repo_name: yonten-thai/yourrepo                    # ← Change to username/reponame
+Pinch Rollers: Adjustable wheels that hold the vinyl flat and feed it evenly through the machine.
 
-# ── Theme ────────────────────────────────────────────────────
-theme:
-  name: material
-  custom_dir: docs/overrides              # for future template overrides
-  language: en
+3. Setting Up the Machine
+Release the Tension: First, I lifted the top lever to loosen the rollers so I could load the material.
 
-  palette:
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: teal
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+Align the Vinyl: I slid the vinyl sheet in, making sure it lay flat and lined up straight with the guide marks so it wouldn't feed crooked.
 
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: teal
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+Lock the Rollers: Next, I shifted the white pinch rollers into position over the marked areas and flipped the top lever back down to clamp the sheet tightly.
 
-  font:
-    text: Inter
-    code: Roboto Mono
+Select Sheet Type: On the machine display, I picked Piece as my material setting (the other choices were Roll and Edge) so the machine could read the size of my specific sheet.
 
-  icon:
-    logo: material/book-open-page-variant
-    repo: fontawesome/brands/github
+4. Software Setup & Cutting Workflow
+I used Roland CutStudio to prepare my design and send it to the cutter.
 
-  features:
-    - navigation.tabs               # top-level tabs
-    - navigation.tabs.sticky        # tabs stay visible on scroll
-    - navigation.sections           # sections in sidebar
-    - navigation.expand             # auto-expand sidebar sections
-    - navigation.top                # back-to-top button
-    - navigation.instant            # instant page loads (SPA-style)
-    - navigation.instant.progress   # loading progress indicator
-    - search.suggest                # search suggestions
-    - search.highlight              # highlight search terms
-    - content.code.copy             # copy button on code blocks
-    - content.tabs.link             # linked content tabs
-    - toc.follow                    # TOC follows scroll
+Preparing the File in CutStudio
+Get Sheet Measurements:
 
-# ── Plugins ──────────────────────────────────────────────────
-plugins:
-  - search
-  - tags
+To load the exact dimensions of my vinyl into the software, I went to File > Cutting Setup > Change and clicked Get from Machine.
 
-# ── Markdown Extensions ─────────────────────────────────────
-markdown_extensions:
-  # Admonitions (note, warning, tip boxes)
-  - admonition
-  - pymdownx.details
+Import & Vectorize:
 
-  # Code highlighting
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+I imported my artwork into CutStudio, right-clicked the image, and chose Image Outline to generate cut paths around the design.
 
-  # Tabbed content blocks
-  - pymdownx.tabbed:
-      alternate_style: true
+Extract Contour Lines:
 
-  # Task lists
-  - pymdownx.tasklist:
-      custom_checkbox: true
+From there, I extracted the outer contour lines to define the exact edges the blade would follow.
 
-  # Emoji support
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-  # Tables, attributes, and HTML-in-Markdown
-  - tables
-  - attr_list
-  - md_in_html
-  - def_list
+Send to Cutter:
 
-  # Table of Contents
-  - toc:
-      permalink: true
-      toc_depth: 3
+Once the paths looked clean, I pressed Ctrl + P to send the file over to the vinyl cutter.
 
-  # Keys & keyboard shortcuts rendering
-  - pymdownx.keys
+5. Finishing Touches: Weeding & Transferring
+Weeding
+After the cutter finished, I pulled the vinyl sheet out of the machine. Using a small pick, I carefully peeled away all the background areas and extra pieces of vinyl, leaving only the actual design on the backing paper.
 
-  # Footnotes
-  - footnotes
 
-  # Critic markup (track changes)
-  - pymdownx.critic
 
-  # Caret, Mark, Tilde (ins/del/highlight)
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
-
-# ── Custom CSS ───────────────────────────────────────────────
-extra_css:
-  - stylesheets/extra.css
-
-# ── Extra (social links, etc.) ───────────────────────────────
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/yourusername      # ← Change
-      name: GitHub
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/yourusername  # ← Change
-      name: LinkedIn
-  generator: false                                 # hide "Made with MkDocs"
-
-# ── Navigation ───────────────────────────────────────────────
-nav:
-  - Home:
-      - Welcome: index.md
-
-  - About Me:
-      - Introduction: about/index.md
-
-  - Documentation:
-      - Overview: documentation/index.md
-      - Getting Started Guide: documentation/getting-started.md
-      - Softwares : documentation/installation.md 
-      - Vinyl : documentation/Vinyl.md 
-      
-  - Projects:
-      - Overview: projects/index.md
+Transferring the Design
+To finish up, I pressed a piece of sticky transfer tape down over the weeded design. The tape holds all the separate parts of the graphic in their exact positions so you can lift the entire decal off the backing paper and press it neatly onto your final surface.
