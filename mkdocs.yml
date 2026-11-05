@@ -151,6 +151,7 @@ nav:
       - Getting Started Guide: documentation/getting-started.md
       - Softwares : documentation/installation.md 
       - Github : documentation/newfile.md
+      - Vinyl Cutter : documentation/VinylCutting.md
       
   - Projects:
       - Overview: projects/index.md
