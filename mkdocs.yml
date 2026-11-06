@@ -152,6 +152,7 @@ nav:
       - Softwares : documentation/installation.md 
       - Github : documentation/newfile.md
       - Vinyl Cutter : documentation/VinylCutting.md
+      - Laser Cutter : documentation/LaserCutting.md
       
   - Projects:
       - Overview: projects/index.md
