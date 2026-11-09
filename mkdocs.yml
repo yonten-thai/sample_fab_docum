@@ -149,10 +149,9 @@ nav:
   - Documentation:
       - Overview: documentation/index.md
       - Getting Started Guide: documentation/getting-started.md
-      - Softwares : documentation/installation.md 
-      - Github : documentation/newfile.md
       - Vinyl Cutter : documentation/VinylCutting.md
       - Laser Cutter : documentation/LaserCutting.md
+      - Data Analysis : documentation/DataAnalysis.md
       
   - Projects:
       - Overview: projects/index.md
